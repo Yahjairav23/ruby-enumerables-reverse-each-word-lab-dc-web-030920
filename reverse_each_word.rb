@@ -1,10 +1,10 @@
 require 'pry'
 
-def reverse_each_word(string)
+def reverse_each_word(sentance)
   # binding.pry
-  yield(string)
+  yield(sentance)
 end
 
-string.each do
-  puts "#{string.reverse}"
+sentance.each do
+  puts "#{sentance.reverse}"
 end

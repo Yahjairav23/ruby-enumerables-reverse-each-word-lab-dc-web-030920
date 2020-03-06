@@ -4,3 +4,4 @@ end
 
 reverse_each_word(string).each do |sentance|
   puts "#{sentance.reverse}"
+end

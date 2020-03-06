@@ -3,4 +3,4 @@ def reverse_each_word(string)
 end
 
 reverse_each_word(string).each do |sentance|
-  puts #{
+  puts #{sentance.reverse}

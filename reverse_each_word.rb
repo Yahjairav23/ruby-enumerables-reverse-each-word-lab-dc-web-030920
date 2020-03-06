@@ -5,6 +5,6 @@ def reverse_each_word(string)
   yield(string)
 end
 
-reverse_each_word(string).each do |sentance|
+string.each do
   puts "#{sentance.reverse}"
 end

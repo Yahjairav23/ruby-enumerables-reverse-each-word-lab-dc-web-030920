@@ -1,10 +1,9 @@
-require 'pry'
+
 
 def reverse_each_word(sentance)
-  # binding.pry
-  yield(sentance.reverse)
+  words = sentence.split(" ")
+  new_array = []
+  new_array = words.collect {|word| word.reverse }
+  new_array.join(" ")
 end
 
-sentance.each do |s|
-  return "#{s}"
-end

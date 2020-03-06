@@ -6,5 +6,5 @@ def reverse_each_word(string)
 end
 
 string.each do
-  puts "#{sentance.reverse}"
+  puts "#{string.reverse}"
 end
